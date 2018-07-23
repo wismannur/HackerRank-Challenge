@@ -1,3 +1,5 @@
+# sumber link test https://www.hackerrank.com/challenges/binary-search-tree-insertion/problem
+
 class Node:
     def __init__(self, info):
         self.info = info  
