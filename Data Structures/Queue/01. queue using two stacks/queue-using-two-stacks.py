@@ -1,3 +1,5 @@
+# sumber link test https://www.hackerrank.com/challenges/queue-using-two-stacks/problem
+
 s = []
 N = int(input())
 for i in range(N) :
