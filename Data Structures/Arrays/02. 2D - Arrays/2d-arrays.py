@@ -1,11 +1,10 @@
-#!/bin/python3
 # sumber link test https://www.hackerrank.com/challenges/2d-array/problem
 
-import math
-import os
-import random
-import re
-import sys
+# import math
+# import os
+# import random
+# import re
+# import sys
 
 # Complete the hourglassSum function below.
 def hourglassSum(arr):
@@ -20,7 +19,7 @@ def hourglassSum(arr):
     return max(sumarr)
 
 if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+    # fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
     arr = []
 
@@ -28,7 +27,8 @@ if __name__ == '__main__':
         arr.append(list(map(int, input().rstrip().split(' '))))
 
     result = hourglassSum(arr)
+    print(result)
 
-    fptr.write(str(result) + '\n')
+    # fptr.write(str(result) + '\n')
 
-    fptr.close()
+    # fptr.close()
